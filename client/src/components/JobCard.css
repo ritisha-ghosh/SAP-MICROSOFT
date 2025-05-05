@@ -1,0 +1,86 @@
+.job-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.job-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.job-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #fff;
+  margin: 0;
+}
+
+.job-badge {
+  background: rgba(79, 70, 229, 0.2);
+  color: #a5b4fc;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border: 1px solid rgba(79, 70, 229, 0.3);
+}
+
+.job-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.job-detail {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #9ca3af;
+  font-size: 0.875rem;
+}
+
+.job-icon {
+  width: 16px;
+  height: 16px;
+  color: #a5b4fc;
+}
+
+.job-progress {
+  margin-bottom: 1.5rem;
+  margin-top: auto;
+}
+
+.progress-label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  color: #a5b4fc;
+}
+
+.progress-bar {
+  height: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #4f46e5, #06b6d4);
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.job-card-footer {
+  margin-top: 1rem;
+}
+
+.btn-icon {
+  width: 16px;
+  height: 16px;
+}
